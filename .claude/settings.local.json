@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebFetch(domain:who.is)",
+      "Bash(curl:*)",
+      "Bash(whois:*)",
+      "Bash(pkill:*)"
     ],
     "deny": []
   }

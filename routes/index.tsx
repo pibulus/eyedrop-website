@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 
 // ===================================================================
-// BREATHER LANDING PAGE - Soft Stack Redesign 
+// DAYPAUSE LANDING PAGE - Soft Stack Redesign 
 // ===================================================================
 // Warm, conspiratorial, chunky design with breathing animations
 // Color palette: warm cream bg, saturated pastels, breathing gradients
@@ -12,8 +12,70 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Breather - Step Away From The Glowing Rectangle</title>
+        <html lang="en" />
+        <title>DayPause - Step Away From The Glowing Rectangle</title>
         <meta name="description" content="Step away from the glowing rectangle. The tiny tap that saves your back, eyes, and sanity." />
+        <meta name="keywords" content="break reminder, productivity, health, eye strain, back pain, work breaks, wellness, focus, desktop app, macOS" />
+        <meta name="author" content="Dennis & Pablo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://daypause.app" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://daypause.app" />
+        <meta property="og:title" content="DayPause - Step Away From The Glowing Rectangle" />
+        <meta property="og:description" content="The tiny tap that saves your back, eyes, and sanity. Smart break reminders for humans who forget they're human." />
+        <meta property="og:image" content="https://daypause.app/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="DayPause" />
+        <meta property="og:locale" content="en_US" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://daypause.app" />
+        <meta name="twitter:title" content="DayPause - Step Away From The Glowing Rectangle" />
+        <meta name="twitter:description" content="The tiny tap that saves your back, eyes, and sanity. Smart break reminders for humans who forget they're human." />
+        <meta name="twitter:image" content="https://daypause.app/og-image.jpg" />
+        <meta name="twitter:creator" content="@pablomurdoch" />
+        
+        {/* Favicons */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#FFE08A" />
+        
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "DayPause",
+            "description": "Smart break reminder app that saves your back, eyes, and sanity. Step away from the glowing rectangle.",
+            "url": "https://daypause.app",
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "macOS",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "author": {
+              "@type": "Organization",
+              "name": "Dennis & Pablo",
+              "url": "https://daypause.app"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "ratingCount": "1"
+            }
+          })}
+        </script>
+        
         <style>
           {`
             @keyframes breathe {
@@ -82,7 +144,7 @@ export default function Home() {
               class="text-7xl md:text-9xl lg:text-[10rem] font-black mb-8 text-black" 
               style="line-height: 1.1;"
             >
-              Breather
+              DayPause
             </h1>
             
             {/* Hero tagline - conspiratorial friend tone */}
@@ -150,7 +212,7 @@ export default function Home() {
                 class="text-5xl md:text-7xl lg:text-8xl font-black mb-10 text-black" 
                 style="line-height: 1.2;"
               >
-                Breather interrupts you just right.
+                DayPause interrupts you just right.
               </h2>
               
               <div class="grid md:grid-cols-3 gap-8 mt-12">
@@ -254,7 +316,7 @@ export default function Home() {
                 class="px-20 py-8 bg-yellow-400 hover:bg-yellow-500 text-black font-black text-3xl md:text-4xl rounded-full border-8 border-black shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] hover:translate-x-3 hover:translate-y-3 hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 active:scale-95 mb-6" 
                 title="Seriously, your back needs this"
               >
-                Download Breather
+                Download DayPause
               </button>
               
               <p class="text-xl text-gray-600 font-bold">

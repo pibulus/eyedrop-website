@@ -131,11 +131,11 @@ export default function Home() {
             
             {/* Friendly waving icon with gradient background */}
             <div 
-              class="inline-block p-6 rounded-3xl border-6 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] mb-12 hover:animate-bounce transition-all duration-300" 
+              class="inline-block p-8 rounded-3xl border-6 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] mb-12 hover:animate-bounce transition-all duration-300" 
               style="background: linear-gradient(135deg, #FF99B7, #FFE08A);"
             >
-              <div class="w-16 h-16 flex items-center justify-center">
-                <img src="/daypause.png" alt="DayPause" class="w-16 h-16 object-contain" />
+              <div class="w-20 h-20 flex items-center justify-center">
+                <img src="/daypause-icon.png" alt="DayPause" class="w-20 h-20 object-contain" />
               </div>
             </div>
             

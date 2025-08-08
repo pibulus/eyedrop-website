@@ -4,155 +4,141 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Eyedrop - Gentle Break Reminders</title>
-        <meta name="description" content="A warm little Mac app that helps you take screen breaks. No guilt, just gentle reminders." />
+        <title>Eyedrop - Look Away Sometimes</title>
+        <meta name="description" content="A tiny Mac app that reminds you to look away from your screen. That's it." />
       </Head>
       
-      <div class="min-h-screen relative overflow-hidden">
-        {/* Mesh gradient background */}
-        <div class="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50">
-          <div class="absolute inset-0 opacity-60">
-            <div class="absolute top-0 -left-40 w-96 h-96 bg-gradient-to-br from-amber-200 to-orange-300 rounded-full blur-3xl animate-pulse"></div>
-            <div class="absolute top-40 right-0 w-[500px] h-[500px] bg-gradient-to-bl from-rose-200 to-pink-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s"></div>
-            <div class="absolute bottom-0 left-1/3 w-[600px] h-[600px] bg-gradient-to-tr from-yellow-200 to-amber-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s"></div>
-            <div class="absolute top-1/2 right-1/4 w-80 h-80 bg-gradient-to-br from-peach-200 to-coral-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 1.5s"></div>
-          </div>
-        </div>
-        
-        {/* Content wrapper */}
-        <div class="relative z-10">
+      <div class="min-h-screen bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
         
         {/* Hero Section */}
         <section class="px-6 py-24 text-center">
           <div class="max-w-3xl mx-auto">
-            {/* Warm break-focused graphic */}
             <div class="mb-12">
-              <div class="inline-block p-8 bg-gradient-to-br from-amber-100/80 to-orange-100/80 backdrop-blur-sm border-4 border-amber-900/20 rounded-[3rem] shadow-2xl transform hover:scale-105 transition-all duration-500">
-                <div class="text-7xl">☕</div>
+              <div class="inline-block p-8 bg-gradient-to-br from-orange-200 to-pink-200 border-8 border-black rounded-[3rem] shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] transform hover:rotate-3 transition-all duration-300">
+                <div class="text-8xl font-black">20</div>
               </div>
             </div>
             
-            <h1 class="text-6xl md:text-7xl font-black mb-8 text-amber-900">
-              take a moment<br/>
-              <span class="text-4xl md:text-5xl bg-gradient-to-r from-amber-600 to-orange-500 bg-clip-text text-transparent">breathe deeply</span>
+            <h1 class="text-7xl md:text-8xl font-black mb-8 text-gray-900">
+              look away<br/>
+              <span class="text-5xl md:text-6xl text-orange-500">sometimes</span>
             </h1>
             
-            <p class="text-xl md:text-2xl text-amber-800/80 mb-12 max-w-xl mx-auto font-medium">
-              a warm friend that reminds you to rest your mind every 20 minutes
+            <p class="text-2xl md:text-3xl text-gray-700 mb-12 max-w-xl mx-auto font-medium">
+              tiny mac app that taps you on the shoulder every 20 minutes
             </p>
             
             <div class="inline-block">
-              <button class="px-12 py-6 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-white font-black text-2xl border-2 border-amber-900/20 rounded-full shadow-2xl hover:scale-105 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm">
-                Start Resting Better
+              <button class="px-12 py-6 bg-gradient-to-r from-green-400 to-emerald-400 hover:from-green-500 hover:to-emerald-500 text-black font-black text-2xl border-8 border-black rounded-[2rem] shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-200">
+                Download
               </button>
-              <p class="mt-4 text-amber-700/70 text-lg font-medium">macOS • always free • tiny 2mb</p>
+              <p class="mt-4 text-gray-600 text-lg">macOS • free • 2mb</p>
             </div>
           </div>
         </section>
 
-        {/* What it does - super simple */}
+        {/* What it does */}
         <section class="px-6 py-20">
           <div class="max-w-4xl mx-auto">
-            <h2 class="text-5xl font-black text-center mb-16 bg-gradient-to-r from-amber-700 to-orange-600 bg-clip-text text-transparent">
-              how it helps
+            <h2 class="text-5xl font-black text-center mb-16 text-gray-900">
+              what it does
             </h2>
             
             <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-amber-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
-                <div class="text-4xl mb-4">⏰</div>
-                <h3 class="text-2xl font-bold mb-3 text-amber-900">gentle rhythm</h3>
-                <p class="text-lg text-amber-700/80">
-                  creates a healthy work rhythm. 20 minutes focus, then breathe.
+              <div class="p-8 bg-white border-6 border-black rounded-[2rem] shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:rotate-1 transition-all duration-300">
+                <div class="text-4xl font-black mb-4">⏱️</div>
+                <h3 class="text-2xl font-black mb-3">counts to 20</h3>
+                <p class="text-lg text-gray-700">
+                  sits in your menu bar. counts minutes. that's literally it.
                 </p>
               </div>
               
-              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-orange-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
-                <div class="text-4xl mb-4">🌅</div>
-                <h3 class="text-2xl font-bold mb-3 text-amber-900">soft reminders</h3>
-                <p class="text-lg text-amber-700/80">
-                  warm nudges to stretch, breathe, or gaze into the distance
+              <div class="p-8 bg-white border-6 border-black rounded-[2rem] shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:rotate-1 transition-all duration-300">
+                <div class="text-4xl font-black mb-4">💭</div>
+                <h3 class="text-2xl font-black mb-3">gentle tap</h3>
+                <p class="text-lg text-gray-700">
+                  tiny notification that says "hey, look out the window"
                 </p>
               </div>
               
-              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-rose-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
-                <div class="text-4xl mb-4">🍃</div>
-                <h3 class="text-2xl font-bold mb-3 text-amber-900">your pace</h3>
-                <p class="text-lg text-amber-700/80">
-                  skip when you need to. it's about progress, not perfection.
+              <div class="p-8 bg-white border-6 border-black rounded-[2rem] shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:rotate-1 transition-all duration-300">
+                <div class="text-4xl font-black mb-4">🌱</div>
+                <h3 class="text-2xl font-black mb-3">no guilt</h3>
+                <p class="text-lg text-gray-700">
+                  skip it if you want. we're not your boss.
                 </p>
               </div>
               
-              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-yellow-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
-                <div class="text-4xl mb-4">💫</div>
-                <h3 class="text-2xl font-bold mb-3 text-amber-900">stays simple</h3>
-                <p class="text-lg text-amber-700/80">
-                  no accounts, no tracking. just you and better habits.
+              <div class="p-8 bg-white border-6 border-black rounded-[2rem] shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:rotate-1 transition-all duration-300">
+                <div class="text-4xl font-black mb-4">✨</div>
+                <h3 class="text-2xl font-black mb-3">just vibes</h3>
+                <p class="text-lg text-gray-700">
+                  no tracking, no cloud, no bs. just a timer.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 20-20-20 Explanation - simplified */}
+        {/* The science bit */}
         <section class="px-6 py-20">
           <div class="max-w-3xl mx-auto text-center">
-            <div class="p-10 bg-gradient-to-br from-amber-50/80 to-orange-50/80 backdrop-blur-md border-2 border-amber-200 rounded-[2.5rem] shadow-2xl">
-              <h2 class="text-4xl font-black mb-8 bg-gradient-to-r from-amber-700 to-orange-600 bg-clip-text text-transparent">
-                the gentle science
+            <div class="p-10 bg-gradient-to-r from-yellow-100 to-orange-100 border-8 border-black rounded-[2.5rem] shadow-[14px_14px_0px_0px_rgba(0,0,0,1)]">
+              <h2 class="text-5xl font-black mb-8 text-gray-900">
+                the science bit
               </h2>
               
               <div class="grid sm:grid-cols-3 gap-8 mb-8">
                 <div class="text-center">
-                  <div class="text-5xl font-black bg-gradient-to-br from-amber-500 to-amber-600 bg-clip-text text-transparent mb-2">20</div>
-                  <div class="text-lg font-semibold text-amber-700">minutes work</div>
+                  <div class="text-5xl font-black text-orange-600 mb-2">20</div>
+                  <div class="text-lg font-bold text-gray-800">minutes</div>
                 </div>
                 
                 <div class="text-center">
-                  <div class="text-5xl font-black bg-gradient-to-br from-orange-500 to-orange-600 bg-clip-text text-transparent mb-2">20</div>
-                  <div class="text-lg font-semibold text-amber-700">feet to gaze</div>
+                  <div class="text-5xl font-black text-pink-600 mb-2">20</div>
+                  <div class="text-lg font-bold text-gray-800">feet away</div>
                 </div>
                 
                 <div class="text-center">
-                  <div class="text-5xl font-black bg-gradient-to-br from-rose-500 to-rose-600 bg-clip-text text-transparent mb-2">20</div>
-                  <div class="text-lg font-semibold text-amber-700">seconds rest</div>
+                  <div class="text-5xl font-black text-purple-600 mb-2">20</div>
+                  <div class="text-lg font-bold text-gray-800">seconds</div>
                 </div>
               </div>
               
-              <p class="text-xl text-amber-700/80 font-medium mt-8">
-                trusted by optometrists, loved by humans who care about wellness
+              <p class="text-xl text-gray-700 font-medium mt-8">
+                doctors say this works. we're just the messenger.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Simple CTA */}
+        {/* Final CTA */}
         <section class="px-6 py-24 text-center">
           <div class="max-w-2xl mx-auto">
-            <h2 class="text-5xl font-black mb-8 bg-gradient-to-r from-amber-700 to-orange-600 bg-clip-text text-transparent">
-              ready to rest better?
+            <h2 class="text-6xl font-black mb-8 text-gray-900">
+              ready?
             </h2>
-            <button class="px-14 py-7 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-white font-black text-2xl border-2 border-amber-900/20 rounded-full shadow-2xl hover:scale-105 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm">
-              Download Eyedrop
+            <button class="px-14 py-7 bg-gradient-to-r from-green-400 to-emerald-400 hover:from-green-500 hover:to-emerald-500 text-black font-black text-3xl border-8 border-black rounded-[2.5rem] shadow-[14px_14px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] transition-all duration-200">
+              Get It
             </button>
-            <p class="mt-6 text-xl text-amber-700/70 font-medium">
-              free forever • no accounts • just 2mb of care
+            <p class="mt-6 text-xl text-gray-600 font-medium">
+              free forever • no sign up • 2mb download
             </p>
           </div>
         </section>
 
-        {/* Footer - minimal */}
-        <footer class="px-6 py-12 bg-gradient-to-t from-amber-100/50 to-transparent">
+        {/* Footer */}
+        <footer class="px-6 py-12 bg-black text-white">
           <div class="max-w-xl mx-auto text-center">
-            <p class="text-xl font-bold mb-2 text-amber-900">
-              crafted with care in melbourne
+            <p class="text-xl font-bold mb-2">
+              made in melbourne
             </p>
-            <p class="text-amber-700/70">
-              by someone learning to take breaks too
+            <p class="text-gray-400">
+              by someone who stares at screens too much
             </p>
           </div>
         </footer>
         
-      </div>
       </div>
     </>
   );

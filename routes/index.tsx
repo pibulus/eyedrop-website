@@ -4,150 +4,155 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>👁️ Eyedrop - Your Eyes Deserve Better</title>
-        <meta name="description" content="Gentle eye care reminders following the 20-20-20 rule. Every 20 minutes, look 20 feet away for 20 seconds." />
+        <title>Eyedrop - Gentle Break Reminders</title>
+        <meta name="description" content="A warm little Mac app that helps you take screen breaks. No guilt, just gentle reminders." />
       </Head>
       
-      <div class="min-h-screen bg-gradient-to-br from-pink-100 via-purple-50 to-indigo-100">
+      <div class="min-h-screen relative overflow-hidden">
+        {/* Mesh gradient background */}
+        <div class="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50">
+          <div class="absolute inset-0 opacity-60">
+            <div class="absolute top-0 -left-40 w-96 h-96 bg-gradient-to-br from-amber-200 to-orange-300 rounded-full blur-3xl animate-pulse"></div>
+            <div class="absolute top-40 right-0 w-[500px] h-[500px] bg-gradient-to-bl from-rose-200 to-pink-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s"></div>
+            <div class="absolute bottom-0 left-1/3 w-[600px] h-[600px] bg-gradient-to-tr from-yellow-200 to-amber-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s"></div>
+            <div class="absolute top-1/2 right-1/4 w-80 h-80 bg-gradient-to-br from-peach-200 to-coral-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 1.5s"></div>
+          </div>
+        </div>
+        
+        {/* Content wrapper */}
+        <div class="relative z-10">
         
         {/* Hero Section */}
-        <section class="px-6 py-20 text-center">
-          <div class="max-w-4xl mx-auto">
-            <div class="mb-8">
-              <div class="inline-block p-6 bg-white border-4 border-black rounded-3xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transform hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200">
-                <span class="text-6xl">👁️</span>
+        <section class="px-6 py-24 text-center">
+          <div class="max-w-3xl mx-auto">
+            {/* Warm break-focused graphic */}
+            <div class="mb-12">
+              <div class="inline-block p-8 bg-gradient-to-br from-amber-100/80 to-orange-100/80 backdrop-blur-sm border-4 border-amber-900/20 rounded-[3rem] shadow-2xl transform hover:scale-105 transition-all duration-500">
+                <div class="text-7xl">☕</div>
               </div>
             </div>
             
-            <h1 class="text-6xl font-black mb-6 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
-              Your Eyes Deserve Better
+            <h1 class="text-6xl md:text-7xl font-black mb-8 text-amber-900">
+              take a moment<br/>
+              <span class="text-4xl md:text-5xl bg-gradient-to-r from-amber-600 to-orange-500 bg-clip-text text-transparent">breathe deeply</span>
             </h1>
             
-            <p class="text-2xl text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Stop the strain. Follow the <strong>20-20-20 rule</strong> with gentle reminders 
-              that actually make you want to take breaks.
+            <p class="text-xl md:text-2xl text-amber-800/80 mb-12 max-w-xl mx-auto font-medium">
+              a warm friend that reminds you to rest your mind every 20 minutes
             </p>
             
-            <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-              <button class="w-full sm:w-auto px-8 py-4 bg-green-400 hover:bg-green-500 text-black font-bold text-xl border-4 border-black rounded-2xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all duration-200">
-                💧 Download for macOS
+            <div class="inline-block">
+              <button class="px-12 py-6 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-white font-black text-2xl border-2 border-amber-900/20 rounded-full shadow-2xl hover:scale-105 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm">
+                Start Resting Better
               </button>
-              <button class="w-full sm:w-auto px-8 py-4 bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-xl border-4 border-black rounded-2xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all duration-200">
-                🎥 Watch Demo
-              </button>
+              <p class="mt-4 text-amber-700/70 text-lg font-medium">macOS • always free • tiny 2mb</p>
             </div>
           </div>
         </section>
 
-        {/* Features Section */}
-        <section class="px-6 py-20 bg-white/50">
-          <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-black text-center mb-16 text-gray-800">
-              Why Your Eyes Will Thank You ✨
+        {/* What it does - super simple */}
+        <section class="px-6 py-20">
+          <div class="max-w-4xl mx-auto">
+            <h2 class="text-5xl font-black text-center mb-16 bg-gradient-to-r from-amber-700 to-orange-600 bg-clip-text text-transparent">
+              how it helps
             </h2>
             
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-amber-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
+                <div class="text-4xl mb-4">⏰</div>
+                <h3 class="text-2xl font-bold mb-3 text-amber-900">gentle rhythm</h3>
+                <p class="text-lg text-amber-700/80">
+                  creates a healthy work rhythm. 20 minutes focus, then breathe.
+                </p>
+              </div>
               
-              <div class="p-8 bg-white border-4 border-black rounded-3xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-300">
-                <div class="text-5xl mb-6 text-center">⏰</div>
-                <h3 class="text-2xl font-bold mb-4 text-gray-800">Smart Menu Bar Timer</h3>
-                <p class="text-gray-600 leading-relaxed">
-                  Lives quietly in your menu bar. Every 20 minutes, gently reminds you 
-                  it's break time. No annoying pop-ups, just a friendly nudge.
+              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-orange-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
+                <div class="text-4xl mb-4">🌅</div>
+                <h3 class="text-2xl font-bold mb-3 text-amber-900">soft reminders</h3>
+                <p class="text-lg text-amber-700/80">
+                  warm nudges to stretch, breathe, or gaze into the distance
                 </p>
               </div>
-
-              <div class="p-8 bg-white border-4 border-black rounded-3xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-300">
-                <div class="text-5xl mb-6 text-center">🎯</div>
-                <h3 class="text-2xl font-bold mb-4 text-gray-800">Eye Movement Ritual</h3>
-                <p class="text-gray-600 leading-relaxed">
-                  Follow the animated dot to exercise your eyes. 20 seconds of 
-                  gentle movement to reset your focus and reduce strain.
+              
+              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-rose-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
+                <div class="text-4xl mb-4">🍃</div>
+                <h3 class="text-2xl font-bold mb-3 text-amber-900">your pace</h3>
+                <p class="text-lg text-amber-700/80">
+                  skip when you need to. it's about progress, not perfection.
                 </p>
               </div>
-
-              <div class="p-8 bg-white border-4 border-black rounded-3xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-300">
-                <div class="text-5xl mb-6 text-center">📊</div>
-                <h3 class="text-2xl font-bold mb-4 text-gray-800">Track Your Progress</h3>
-                <p class="text-gray-600 leading-relaxed">
-                  See how many breaks you've completed today. Build a healthy 
-                  habit with gentle accountability, not shame.
+              
+              <div class="p-8 bg-white/60 backdrop-blur-md border-2 border-yellow-200 rounded-3xl shadow-xl hover:scale-105 hover:bg-white/70 transition-all duration-300">
+                <div class="text-4xl mb-4">💫</div>
+                <h3 class="text-2xl font-bold mb-3 text-amber-900">stays simple</h3>
+                <p class="text-lg text-amber-700/80">
+                  no accounts, no tracking. just you and better habits.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 20-20-20 Explanation */}
+        {/* 20-20-20 Explanation - simplified */}
         <section class="px-6 py-20">
-          <div class="max-w-4xl mx-auto text-center">
-            <div class="p-12 bg-gradient-to-r from-blue-100 to-purple-100 border-4 border-black rounded-3xl shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
-              <h2 class="text-4xl font-black mb-8 text-gray-800">
-                The 20-20-20 Rule 👀
+          <div class="max-w-3xl mx-auto text-center">
+            <div class="p-10 bg-gradient-to-br from-amber-50/80 to-orange-50/80 backdrop-blur-md border-2 border-amber-200 rounded-[2.5rem] shadow-2xl">
+              <h2 class="text-4xl font-black mb-8 bg-gradient-to-r from-amber-700 to-orange-600 bg-clip-text text-transparent">
+                the gentle science
               </h2>
               
               <div class="grid sm:grid-cols-3 gap-8 mb-8">
                 <div class="text-center">
-                  <div class="text-4xl font-black text-blue-600 mb-2">20</div>
-                  <div class="text-lg font-semibold text-gray-700">Minutes</div>
-                  <p class="text-gray-600 mt-2">Every 20 minutes of screen time</p>
+                  <div class="text-5xl font-black bg-gradient-to-br from-amber-500 to-amber-600 bg-clip-text text-transparent mb-2">20</div>
+                  <div class="text-lg font-semibold text-amber-700">minutes work</div>
                 </div>
                 
                 <div class="text-center">
-                  <div class="text-4xl font-black text-purple-600 mb-2">20</div>
-                  <div class="text-lg font-semibold text-gray-700">Feet</div>
-                  <p class="text-gray-600 mt-2">Look at something 20+ feet away</p>
+                  <div class="text-5xl font-black bg-gradient-to-br from-orange-500 to-orange-600 bg-clip-text text-transparent mb-2">20</div>
+                  <div class="text-lg font-semibold text-amber-700">feet to gaze</div>
                 </div>
                 
                 <div class="text-center">
-                  <div class="text-4xl font-black text-pink-600 mb-2">20</div>
-                  <div class="text-lg font-semibold text-gray-700">Seconds</div>
-                  <p class="text-gray-600 mt-2">For at least 20 seconds</p>
+                  <div class="text-5xl font-black bg-gradient-to-br from-rose-500 to-rose-600 bg-clip-text text-transparent mb-2">20</div>
+                  <div class="text-lg font-semibold text-amber-700">seconds rest</div>
                 </div>
               </div>
               
-              <p class="text-xl text-gray-700 leading-relaxed">
-                Recommended by eye doctors worldwide to reduce digital eye strain, 
-                dry eyes, and headaches from excessive screen time.
+              <p class="text-xl text-amber-700/80 font-medium mt-8">
+                trusted by optometrists, loved by humans who care about wellness
               </p>
             </div>
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section class="px-6 py-20 bg-gradient-to-r from-green-100 to-blue-100">
-          <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-4xl font-black mb-6 text-gray-800">
-              Ready to Give Your Eyes a Break?
+        {/* Simple CTA */}
+        <section class="px-6 py-24 text-center">
+          <div class="max-w-2xl mx-auto">
+            <h2 class="text-5xl font-black mb-8 bg-gradient-to-r from-amber-700 to-orange-600 bg-clip-text text-transparent">
+              ready to rest better?
             </h2>
-            <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-              Join thousands of people who've reduced eye strain and improved their 
-              daily comfort with Eyedrop.
-            </p>
-            
-            <button class="px-12 py-6 bg-orange-400 hover:bg-orange-500 text-black font-black text-2xl border-4 border-black rounded-2xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200">
-              🍎 Download for macOS
+            <button class="px-14 py-7 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-white font-black text-2xl border-2 border-amber-900/20 rounded-full shadow-2xl hover:scale-105 hover:shadow-3xl transition-all duration-300 backdrop-blur-sm">
+              Download Eyedrop
             </button>
-            
-            <div class="mt-6 text-gray-600">
-              <p>✅ Free forever &nbsp; ✅ No account required &nbsp; ✅ Privacy first</p>
-            </div>
+            <p class="mt-6 text-xl text-amber-700/70 font-medium">
+              free forever • no accounts • just 2mb of care
+            </p>
           </div>
         </section>
 
-        {/* Footer */}
-        <footer class="px-6 py-12 bg-gray-900 text-white">
-          <div class="max-w-4xl mx-auto text-center">
-            <div class="text-4xl mb-4">👁️</div>
-            <p class="text-gray-400 mb-4">
-              Built with love for digital workers everywhere.
+        {/* Footer - minimal */}
+        <footer class="px-6 py-12 bg-gradient-to-t from-amber-100/50 to-transparent">
+          <div class="max-w-xl mx-auto text-center">
+            <p class="text-xl font-bold mb-2 text-amber-900">
+              crafted with care in melbourne
             </p>
-            <p class="text-gray-500 text-sm">
-              Made by Pablo • Bangkok Cyberpunk Energy ⚡
+            <p class="text-amber-700/70">
+              by someone learning to take breaks too
             </p>
           </div>
         </footer>
-
+        
+      </div>
       </div>
     </>
   );

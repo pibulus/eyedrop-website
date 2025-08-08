@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Soft gradient orb animations */
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -30px) scale(1.05);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.95);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.5;
+    filter: blur(60px);
+  }
+  50% {
+    opacity: 0.8;
+    filter: blur(80px);
+  }
+}
+
+/* Custom gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better button transitions */
+button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Gradient orb styles */
+.gradient-orb {
+  animation: float 20s ease-in-out infinite;
+}
+
+.gradient-orb:nth-child(2) {
+  animation-delay: 5s;
+  animation-duration: 25s;
+}
+
+.gradient-orb:nth-child(3) {
+  animation-delay: 10s;
+  animation-duration: 30s;
+}
+
+.gradient-orb:nth-child(4) {
+  animation-delay: 15s;
+  animation-duration: 22s;
+}

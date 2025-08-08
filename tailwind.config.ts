@@ -1,6 +1,9 @@
-import { Configuration } from "twind";
+import { type Config } from "tailwindcss";
 
 export default {
+  content: [
+    "{routes,islands,components}/**/*.{ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -28,4 +31,4 @@ export default {
       },
     },
   },
-} as Configuration;
+} satisfies Config;

@@ -131,7 +131,7 @@ export default function Home() {
             
             {/* Friendly waving icon with gradient background */}
             <div 
-              class="inline-block p-6 rounded-3xl border-6 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] mb-12 hover:scale-105 hover:-rotate-2 transition-all duration-700 ease-out group" 
+              class="inline-block p-6 rounded-3xl border-8 border-black shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] mb-12 hover:scale-105 hover:-rotate-2 transition-all duration-700 ease-out group" 
               style="background: linear-gradient(135deg, #FF99B7, #FFE08A);"
             >
               <div class="w-32 h-32 flex items-center justify-center">
@@ -222,29 +222,32 @@ export default function Home() {
               <div class="grid md:grid-cols-3 gap-8 mt-12">
                 {/* Mental Reset Card */}
                 <div 
-                  class="p-8 bg-[#FFF4EB] rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  class="p-8 rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  style="background: linear-gradient(135deg, #FF99B7, #FFB3D9);"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-bounce">🧠</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Mental Reset</h3>
-                  <p class="text-gray-700 text-xl" style="line-height: 1.4;">Clear the mental clutter. Come back with fresh eyes and sharper focus.</p>
+                  <p class="text-gray-800 text-xl" style="line-height: 1.4;">Clear the mental clutter. Come back with fresh eyes and sharper focus.</p>
                 </div>
                 
                 {/* Body Care Card */}
                 <div 
-                  class="p-8 bg-[#FFF9F5] rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  class="p-8 rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  style="background: linear-gradient(135deg, #A7F3D0, #D4E8FF);"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-pulse">🫁</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Body Care</h3>
-                  <p class="text-gray-700 text-xl" style="line-height: 1.4;">Stretch that spine. Roll those shoulders. Breathe like a human, not a machine.</p>
+                  <p class="text-gray-800 text-xl" style="line-height: 1.4;">Stretch that spine. Roll those shoulders. Breathe like a human, not a machine.</p>
                 </div>
                 
                 {/* Flow Return Card */}
                 <div 
-                  class="p-8 bg-[#FFF8F0] rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  class="p-8 rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  style="background: linear-gradient(135deg, #FFE08A, #FFD4B3);"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-spin">⚡</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Flow Return</h3>
-                  <p class="text-gray-700 text-xl" style="line-height: 1.4;">Small pauses → Better focus. You'll come back stronger, not scattered.</p>
+                  <p class="text-gray-800 text-xl" style="line-height: 1.4;">Small pauses → Better focus. You'll come back stronger, not scattered.</p>
                 </div>
               </div>
             </div>
@@ -314,7 +317,7 @@ export default function Home() {
               </h2>
               
               <button 
-                class="px-20 py-8 bg-yellow-400 hover:bg-yellow-500 text-black font-black text-3xl md:text-4xl rounded-full border-8 border-black shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] hover:translate-x-3 hover:translate-y-3 hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 active:scale-95 mb-6" 
+                class="px-20 py-8 bg-yellow-400 hover:bg-yellow-500 text-black font-black text-3xl md:text-4xl rounded-full border-6 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 active:scale-95 mb-6" 
                 title="Seriously, your back needs this"
               >
                 Download DayPause

@@ -135,7 +135,7 @@ export default function Home() {
               style="background: linear-gradient(135deg, #FF99B7, #FFE08A);"
             >
               <div class="w-16 h-16 flex items-center justify-center">
-                <img src="/daypause-icon.png" alt="DayPause" class="w-16 h-16 object-contain" />
+                <img src="/daypause.png" alt="DayPause" class="w-16 h-16 object-contain" />
               </div>
             </div>
             

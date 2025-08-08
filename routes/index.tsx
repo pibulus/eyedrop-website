@@ -127,7 +127,7 @@ export default function Home() {
           {/* ===================================================================
               HERO SECTION - Immediate impact with chunky design
               =================================================================== */}
-          <section class="px-6 py-16 text-center">
+          <section class="px-6 py-20 md:py-24 text-center">
             
             {/* Friendly waving icon with gradient background */}
             <div 
@@ -145,7 +145,7 @@ export default function Home() {
             
             {/* Main headline - chunky and friendly */}
             <h1 
-              class="text-7xl md:text-9xl lg:text-[10rem] font-black mb-8 text-black" 
+              class="text-6xl md:text-8xl lg:text-9xl font-black mb-8 text-black" 
               style="line-height: 1.1;"
             >
               DayPause
@@ -161,10 +161,10 @@ export default function Home() {
             
             {/* Supporting copy */}
             <p 
-              class="text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto" 
+              class="text-xl md:text-2xl text-gray-700 mb-16 max-w-3xl mx-auto" 
               style="line-height: 1.4;"
             >
-              Smart reminders for people who actually work. Your back, eyes, and brain will thank you.
+              Smart reminders for people who forget to blink.
             </p>
             
             {/* Primary CTA with tooltip easter egg */}
@@ -188,15 +188,15 @@ export default function Home() {
               PROBLEM STATEMENT - Conspiratorial friend energy
               =================================================================== */}
           <section 
-            class="px-6 py-16 border-y-8 border-black" 
+            class="px-6 py-12 border-y-8 border-black" 
             style="background: linear-gradient(to right, #FF99B7, #FFE08A);"
           >
             <div class="max-w-4xl mx-auto text-center">
               <h2 
-                class="text-5xl md:text-7xl lg:text-8xl font-black mb-8 text-black" 
+                class="text-4xl md:text-6xl lg:text-7xl font-black mb-8 text-black" 
                 style="line-height: 1.2;"
               >
-                You work. We remind.
+                You focus. We'll tap you when it's time.
               </h2>
               <p 
                 class="text-2xl md:text-3xl text-gray-800" 
@@ -210,19 +210,19 @@ export default function Home() {
           {/* ===================================================================
               SOLUTION BENEFITS - Three chunky benefit cards
               =================================================================== */}
-          <section class="px-6 py-20">
+          <section class="px-6 py-24">
             <div class="max-w-5xl mx-auto text-center">
               <h2 
-                class="text-5xl md:text-7xl lg:text-8xl font-black mb-10 text-black" 
+                class="text-4xl md:text-6xl lg:text-7xl font-black mb-12 text-black" 
                 style="line-height: 1.2;"
               >
-                Built for how you actually work.
+                Built for your real-life rhythm.
               </h2>
               
               <div class="grid md:grid-cols-3 gap-8 mt-12">
                 {/* Mental Reset Card */}
                 <div 
-                  class="p-8 bg-white rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  class="p-8 bg-[#FFF4EB] rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-bounce">🧠</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Mental Reset</h3>
@@ -231,7 +231,7 @@ export default function Home() {
                 
                 {/* Body Care Card */}
                 <div 
-                  class="p-8 bg-white rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  class="p-8 bg-[#FFF9F5] rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-pulse">🫁</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Body Care</h3>
@@ -240,7 +240,7 @@ export default function Home() {
                 
                 {/* Flow Return Card */}
                 <div 
-                  class="p-8 bg-white rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
+                  class="p-8 bg-[#FFF8F0] rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-spin">⚡</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Flow Return</h3>
@@ -255,32 +255,32 @@ export default function Home() {
               =================================================================== */}
           <section 
             class="px-6 py-20 border-y-8 border-black" 
-            style="background: linear-gradient(to right, #A7F3D0, #A0D9FF);"
+            style="background: linear-gradient(to right, #A7F3D0, #FFD4B3);"
           >
             <div class="max-w-6xl mx-auto">
               <h2 
-                class="text-5xl md:text-7xl lg:text-8xl font-black mb-14 text-center text-black" 
+                class="text-4xl md:text-6xl lg:text-7xl font-black mb-16 text-center text-black" 
                 style="line-height: 1.2;"
               >
-                How it works
+                How DayPause taps you out
               </h2>
               
               <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="space-y-8">
                   {/* Custom Timing Feature */}
-                  <div class="p-6 bg-white rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-yellow-50">
+                  <div class="p-6 bg-[#FFF4EB] rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-yellow-50">
                     <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Your Schedule</h3>
                     <p class="text-gray-700 text-xl" style="line-height: 1.4;">15 minutes, 2 hours, whatever works. Change it whenever you want.</p>
                   </div>
                   
                   {/* Smart Reminders Feature */}
-                  <div class="p-6 bg-white rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-green-50">
+                  <div class="p-6 bg-[#FFF9F5] rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-green-50">
                     <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Smart Reminders</h3>
                     <p class="text-gray-700 text-xl" style="line-height: 1.4;">Gentle suggestions like "stretch" or "hydrate." Never pushy, never annoying.</p>
                   </div>
                   
                   {/* Focus Mode Feature */}
-                  <div class="p-6 bg-white rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-red-50">
+                  <div class="p-6 bg-[#FFF8F0] rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-red-50">
                     <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Focus Mode</h3>
                     <p class="text-gray-700 text-xl" style="line-height: 1.4;">No skip button when you really need to step away. <span class="text-red-600 font-bold">Use wisely.</span></p>
                   </div>
@@ -307,10 +307,10 @@ export default function Home() {
           <section class="px-6 py-20 text-center">
             <div class="max-w-4xl mx-auto">
               <h2 
-                class="text-5xl md:text-7xl lg:text-8xl font-black mb-10 text-black" 
+                class="text-4xl md:text-6xl lg:text-7xl font-black mb-12 text-black" 
                 style="line-height: 1.2;"
               >
-                Ready to be human again?
+                Time to come up for air.
               </h2>
               
               <button 

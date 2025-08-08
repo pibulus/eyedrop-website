@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <Head>
         <html lang="en" />
-        <title>DayPause - Step Away From The Glowing Rectangle</title>
-        <meta name="description" content="Step away from the glowing rectangle. The tiny tap that saves your back, eyes, and sanity." />
+        <title>DayPause - Break Reminders That Don't Suck</title>
+        <meta name="description" content="Smart break reminders for people who actually work. Your back, eyes, and brain will thank you." />
         <meta name="keywords" content="break reminder, productivity, health, eye strain, back pain, work breaks, wellness, focus, desktop app, macOS" />
         <meta name="author" content="Dennis & Pablo" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,8 +24,8 @@ export default function Home() {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://daypause.app" />
-        <meta property="og:title" content="DayPause - Step Away From The Glowing Rectangle" />
-        <meta property="og:description" content="The tiny tap that saves your back, eyes, and sanity. Smart break reminders for humans who forget they're human." />
+        <meta property="og:title" content="DayPause - Break Reminders That Don't Suck" />
+        <meta property="og:description" content="Smart break reminders for people who actually work. Your back, eyes, and brain will thank you." />
         <meta property="og:image" content="https://daypause.app/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -35,8 +35,8 @@ export default function Home() {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://daypause.app" />
-        <meta name="twitter:title" content="DayPause - Step Away From The Glowing Rectangle" />
-        <meta name="twitter:description" content="The tiny tap that saves your back, eyes, and sanity. Smart break reminders for humans who forget they're human." />
+        <meta name="twitter:title" content="DayPause - Break Reminders That Don't Suck" />
+        <meta name="twitter:description" content="Smart break reminders for people who actually work. Your back, eyes, and brain will thank you." />
         <meta name="twitter:image" content="https://daypause.app/og-image.jpg" />
         <meta name="twitter:creator" content="@pablomurdoch" />
         
@@ -54,7 +54,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
             "name": "DayPause",
-            "description": "Smart break reminder app that saves your back, eyes, and sanity. Step away from the glowing rectangle.",
+            "description": "Smart break reminders for people who actually work. Your back, eyes, and brain will thank you.",
             "url": "https://daypause.app",
             "applicationCategory": "ProductivityApplication",
             "operatingSystem": "macOS",
@@ -147,12 +147,12 @@ export default function Home() {
               DayPause
             </h1>
             
-            {/* Hero tagline - conspiratorial friend tone */}
+            {/* Hero tagline - natural confident energy */}
             <p 
               class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-black max-w-5xl mx-auto" 
               style="line-height: 1.3;"
             >
-              Step away from the glowing rectangle.
+              Break reminders that don't suck.
             </p>
             
             {/* Supporting copy */}
@@ -160,7 +160,7 @@ export default function Home() {
               class="text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto" 
               style="line-height: 1.4;"
             >
-              The tiny tap that saves your back, eyes, and sanity.
+              Smart reminders for people who actually work. Your back, eyes, and brain will thank you.
             </p>
             
             {/* Primary CTA with tooltip easter egg */}
@@ -192,13 +192,13 @@ export default function Home() {
                 class="text-5xl md:text-7xl lg:text-8xl font-black mb-8 text-black" 
                 style="line-height: 1.2;"
               >
-                Hey. Yeah, you.
+                You work. We remind.
               </h2>
               <p 
                 class="text-2xl md:text-3xl text-gray-800" 
                 style="line-height: 1.4;"
               >
-                Hours disappear. Your back turns into a question mark. Your eyes start making sand. You need a co-pilot for your breaks.
+                Hours disappear. Your spine curves. Your eyes dry out. Sometimes you need someone looking out for you.
               </p>
             </div>
           </section>
@@ -212,7 +212,7 @@ export default function Home() {
                 class="text-5xl md:text-7xl lg:text-8xl font-black mb-10 text-black" 
                 style="line-height: 1.2;"
               >
-                DayPause interrupts you just right.
+                Built for how you actually work.
               </h2>
               
               <div class="grid md:grid-cols-3 gap-8 mt-12">
@@ -261,27 +261,27 @@ export default function Home() {
                 class="text-5xl md:text-7xl lg:text-8xl font-black mb-14 text-center text-black" 
                 style="line-height: 1.2;"
               >
-                Your Rhythm, Your Rules
+                How it works
               </h2>
               
               <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="space-y-8">
-                  {/* Pick Your Vibe Feature */}
+                  {/* Custom Timing Feature */}
                   <div class="p-6 bg-white rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-yellow-50">
-                    <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Pick Your Vibe</h3>
-                    <p class="text-gray-700 text-xl" style="line-height: 1.4;">15 minutes, 45, or whenever your vibe says 'I need out.' Change it anytime. Zero judgment.</p>
+                    <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Your Schedule</h3>
+                    <p class="text-gray-700 text-xl" style="line-height: 1.4;">15 minutes, 2 hours, whatever works. Change it whenever you want.</p>
                   </div>
                   
-                  {/* Soft Whispers Feature */}
+                  {/* Smart Reminders Feature */}
                   <div class="p-6 bg-white rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-green-50">
-                    <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Soft Whispers</h3>
-                    <p class="text-gray-700 text-xl" style="line-height: 1.4;">"Stretch that back" or "make some tea." Warm whispers, never bossy demands.</p>
+                    <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Smart Reminders</h3>
+                    <p class="text-gray-700 text-xl" style="line-height: 1.4;">Gentle suggestions like "stretch" or "hydrate." Never pushy, never annoying.</p>
                   </div>
                   
-                  {/* No Escape Mode Feature */}
+                  {/* Focus Mode Feature */}
                   <div class="p-6 bg-white rounded-2xl border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-200 cursor-pointer hover:bg-red-50">
-                    <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">No Escape Mode</h3>
-                    <p class="text-gray-700 text-xl" style="line-height: 1.4;">Skip button? Gone. You're trapped… in self-care. <span class="text-red-600 font-bold">Use responsibly.</span></p>
+                    <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Focus Mode</h3>
+                    <p class="text-gray-700 text-xl" style="line-height: 1.4;">No skip button when you really need to step away. <span class="text-red-600 font-bold">Use wisely.</span></p>
                   </div>
                 </div>
                 

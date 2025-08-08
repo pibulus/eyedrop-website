@@ -8,7 +8,19 @@ export default function Home() {
         <meta name="description" content="A tiny Mac app that reminds you to look away from your screen. That's it." />
       </Head>
       
-      <div class="min-h-screen bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
+      <div class="min-h-screen relative overflow-hidden">
+        {/* Oozy mesh gradient background */}
+        <div class="absolute inset-0 bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50">
+          <div class="absolute inset-0 opacity-60">
+            <div class="absolute top-0 -left-40 w-96 h-96 bg-gradient-to-br from-orange-200 to-pink-300 rounded-full blur-3xl animate-pulse"></div>
+            <div class="absolute top-40 right-0 w-[500px] h-[500px] bg-gradient-to-bl from-yellow-200 to-orange-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s"></div>
+            <div class="absolute bottom-0 left-1/3 w-[600px] h-[600px] bg-gradient-to-tr from-pink-200 to-rose-300 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s"></div>
+            <div class="absolute top-1/2 right-1/4 w-80 h-80 bg-gradient-to-br from-yellow-300 to-orange-400 rounded-full blur-3xl animate-pulse" style="animation-delay: 1.5s"></div>
+          </div>
+        </div>
+        
+        {/* Content wrapper */}
+        <div class="relative z-10">
         
         {/* Hero Section */}
         <section class="px-6 py-24 text-center">
@@ -139,6 +151,7 @@ export default function Home() {
           </div>
         </footer>
         
+        </div>
       </div>
     </>
   );

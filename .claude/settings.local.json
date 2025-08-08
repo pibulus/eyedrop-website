@@ -6,7 +6,8 @@
       "WebFetch(domain:who.is)",
       "Bash(curl:*)",
       "Bash(whois:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(cp:*)"
     ],
     "deny": []
   }

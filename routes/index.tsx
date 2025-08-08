@@ -134,8 +134,8 @@ export default function Home() {
               class="inline-block p-6 rounded-3xl border-6 border-black shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] mb-12 hover:animate-bounce transition-all duration-300" 
               style="background: linear-gradient(135deg, #FF99B7, #FFE08A);"
             >
-              <div class="w-16 h-16 flex items-center justify-center text-4xl">
-                👋
+              <div class="w-16 h-16 flex items-center justify-center">
+                <img src="/daypause-icon.png" alt="DayPause" class="w-16 h-16 object-contain" />
               </div>
             </div>
             
@@ -218,8 +218,7 @@ export default function Home() {
               <div class="grid md:grid-cols-3 gap-8 mt-12">
                 {/* Mental Reset Card */}
                 <div 
-                  class="p-8 rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group" 
-                  style="background: linear-gradient(135deg, #A0D9FF, #FF99B7);"
+                  class="p-8 bg-white rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-bounce">🧠</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Mental Reset</h3>
@@ -228,8 +227,7 @@ export default function Home() {
                 
                 {/* Body Care Card */}
                 <div 
-                  class="p-8 rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group" 
-                  style="background: linear-gradient(135deg, #A7F3D0, #FFE08A);"
+                  class="p-8 bg-white rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-pulse">🫁</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Body Care</h3>
@@ -238,8 +236,7 @@ export default function Home() {
                 
                 {/* Flow Return Card */}
                 <div 
-                  class="p-8 rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group" 
-                  style="background: linear-gradient(135deg, #FFE08A, #A0D9FF);"
+                  class="p-8 bg-white rounded-3xl border-6 border-black shadow-[10px_10px_0px_0px_rgba(0,0,0,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 cursor-pointer group"
                 >
                   <div class="text-4xl mb-4 group-hover:animate-spin">⚡</div>
                   <h3 class="text-3xl font-black mb-4 text-black" style="line-height: 1.3;">Flow Return</h3>
